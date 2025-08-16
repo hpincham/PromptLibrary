@@ -1,5 +1,12 @@
 # GPT-5 Prompt Template Manual
 
+<!--
+  GPT-5 Prompt Manual
+  © 2025 Howard Pincham & Sage (OpenAI Assistant)
+  License: CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)
+  Contact: howard@clarusigna.com
+-->
+
 This manual explains how to use the **tiered GPT-5 Prompt Templates** (Basic, Intermediate, Advanced) effectively.  
 It contains a **Quick Start Guide** for immediate use, followed by a **detailed walkthrough** of each section in the templates.
 
