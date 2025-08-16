@@ -3,7 +3,12 @@
     <!-- Purpose: one line on why this prompt exists -->
     <!-- Audience: who will consume the output -->
     <!-- Stakes: why correctness matters (money/safety/reputation/decision) -->
+    <!-- GPT-5 Prompt Templates --> 
+    <!-- © 2025 Howard Pincham --> 
+    <!-- License: CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/) --> 
+    <!-- Contact: howard@clarusigna.com -->    
   </Meta>
+
 
   <Role> <!-- OPTIONAL: Skip if Task+Context already imply persona and tone.
               Keep for advisory/creative/strategic outputs to shape voice and prioritization. -->
