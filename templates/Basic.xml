@@ -1,5 +1,11 @@
 <GPT5Prompt>
-  <Role> <!-- OPTIONAL: Skip for factual/low-stakes prompts or when tone doesn't matter.
+    <!-- GPT-5 Prompt Templates --> 
+    <!-- © 2025 Howard Pincham --> 
+    <!-- License: CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/) --> 
+    <!-- Contact: howard@clarusigna.com -->   
+  
+  <Role> 
+    <!-- OPTIONAL: Skip for factual/low-stakes prompts or when tone doesn't matter.
               Use when you want a specific voice/mindset (e.g., "Travel planner", "DBA coach"). -->
   </Role>
 
@@ -11,7 +17,8 @@
     <!-- REQUIRED: One clear sentence, action verb + scope (e.g., "Draft...", "Plan...", "Summarize..."). -->
   </Task>
 
-  <OutputFormat> <!-- OPTIONAL (but recommended): Skip only if you truly don't care about structure.
+  <OutputFormat> 
+    <!-- OPTIONAL (but recommended): Skip only if you truly don't care about structure.
                       Otherwise define sections, bullets, or table fields. -->
   </OutputFormat>
 </GPT5Prompt>
