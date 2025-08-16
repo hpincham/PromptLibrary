@@ -161,6 +161,17 @@ Designed for maximum control, ideal for deep reasoning, multi-step problem-solvi
 - Only include optional sections if they truly add value.
 - Always review GPT-5’s output before using.
 
+
+
+## 📖 Disclaimer  
+
+These templates and instructions are provided **“as-is”** for educational and practical purposes.  
+No warranties are expressed or implied regarding accuracy, completeness, or suitability for any purpose.  
+
+The authors (Howard Pincham & Sage, OpenAI Assistant) are **not responsible** for errors, omissions, misinterpretations, or outcomes resulting from use of this material.  
+
+Use at your own discretion and always review generated outputs before relying on them.  
+
 ---
 
 © 2025 Howard Pincham — Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
