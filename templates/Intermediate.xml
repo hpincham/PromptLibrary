@@ -1,4 +1,9 @@
 <GPT5Prompt>
+    <!-- GPT-5 Prompt Templates --> 
+    <!-- © 2025 Howard Pincham --> 
+    <!-- License: CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/) --> 
+    <!-- Contact: howard@clarusigna.com -->   
+  
   <Role> <!-- OPTIONAL: Skip for purely factual prompts where tone/voice doesn't matter.
               Keep for advisory/creative/strategic tasks to bias style and priorities. -->
   </Role>
