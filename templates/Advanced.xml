@@ -1,0 +1,58 @@
+<GPT5Prompt>
+  <Meta> <!-- OPTIONAL: Skip for quick-turn tasks. Use to frame Purpose/Audience/Stakes for high-consequence work. -->
+    <!-- Purpose: one line on why this prompt exists -->
+    <!-- Audience: who will consume the output -->
+    <!-- Stakes: why correctness matters (money/safety/reputation/decision) -->
+  </Meta>
+
+  <Role> <!-- OPTIONAL: Skip if Task+Context already imply persona and tone.
+              Keep for advisory/creative/strategic outputs to shape voice and prioritization. -->
+  </Role>
+
+  <Context>
+    <!-- REQUIRED: Known facts, constraints, prior attempts, timing/season, org specifics. -->
+  </Context>
+
+  <Task>
+    <!-- REQUIRED: One-sentence imperative with depth/scope ("produce a production-ready...", "compare..."). -->
+  </Task>
+
+  <Inputs> <!-- OPTIONAL (REQUIRED if using specific sources): Name the sources/data; note recency/authority. -->
+  </Inputs>
+
+  <NonGoals> <!-- OPTIONAL: Use when scope creep is likely; list explicit exclusions. -->
+  </NonGoals>
+
+  <Constraints> <!-- OPTIONAL (recommended): Tone, length, reading level, compliance/citation rules, no fabrication. -->
+  </Constraints>
+
+  <AdvancedInstructions> <!-- OPTIONAL BLOCK: Use when you want slow, rigorous reasoning or tool control. -->
+    <DeepResearch> <!-- OPTIONAL: Ask for multi-source comparison, conflict resolution rules, optimization goals.
+                         Skip for simple tasks or speed over depth. --> </DeepResearch>
+    <SelfReview> <!-- OPTIONAL: Require internal revision against QualityBar before responding.
+                      Skip if you don't need extra rigor. --> </SelfReview>
+    <ToolUse> <!-- OPTIONAL: Define browsing/coding/diagram permissions + citation style.
+                   Skip if free-form knowledge is fine or tools are disallowed. --> </ToolUse>
+  </AdvancedInstructions>
+
+  <OutputFormat>
+    <!-- REQUIRED for mission-critical results: Detailed section list; include a minimal skeleton or table schema. -->
+  </OutputFormat>
+
+  <QualityBar> <!-- OPTIONAL (recommended for high-stakes): 3–6 measurable pass/fail checks tied to Constraints. -->
+  </QualityBar>
+
+  <Examples> <!-- OPTIONAL: Provide 1 bad vs 1 good snippet to anchor level and style. -->
+    <Bad></Bad>
+    <Good></Good>
+  </Examples>
+
+  <AmbiguityHandling> <!-- OPTIONAL: Tell GPT to ask up to N questions first OR proceed with listed assumptions if time-boxed. -->
+  </AmbiguityHandling>
+
+  <Acceptance> <!-- OPTIONAL: Single line defining “usable as-is” for your workflow. -->
+  </Acceptance>
+
+  <CallToAction> <!-- OPTIONAL: What should happen next (e.g., provide 2 alternatives, generate files). -->
+  </CallToAction>
+</GPT5Prompt>
