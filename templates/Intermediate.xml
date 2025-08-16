@@ -1,0 +1,30 @@
+<GPT5Prompt>
+  <Role> <!-- OPTIONAL: Skip for purely factual prompts where tone/voice doesn't matter.
+              Keep for advisory/creative/strategic tasks to bias style and priorities. -->
+  </Role>
+
+  <Context>
+    <!-- REQUIRED: Facts, constraints, prior attempts, user preferences, dates/timeframe. -->
+  </Context>
+
+  <Task>
+    <!-- REQUIRED: One-sentence imperative + depth ("quick scan" vs. "detailed plan"). -->
+  </Task>
+
+  <Scope>
+    <InScope> <!-- OPTIONAL: Skip if the task is naturally narrow and unambiguous.
+                   Use to prevent drift by listing what's explicitly included. --> </InScope>
+    <OutOfScope> <!-- OPTIONAL: Skip for simple tasks. Use to forbid common anti-patterns. --> </OutOfScope>
+  </Scope>
+
+  <Constraints>
+    <!-- OPTIONAL (recommended): Tone, length/word limit, reading level, compliance rules (e.g., no fabricated citations). -->
+  </Constraints>
+
+  <QualityBar> <!-- OPTIONAL: Skip for casual prompts. Use when you need pass/fail checks (3–6 measurable items). -->
+  </QualityBar>
+
+  <OutputFormat>
+    <!-- REQUIRED for predictable results: Specify sections, bullets, and any table schemas. -->
+  </OutputFormat>
+</GPT5Prompt>
