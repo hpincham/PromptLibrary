@@ -117,3 +117,18 @@ Pre-sets **`<Mode>strict</Mode>`** and a rigorous **OutputFormat** with an **Evi
   <IfOff>Ignore all rules in this block; proceed with normal instructions.</IfOff>
   <VerificationRule>VERIFIED = provided inputs or primary source ≤12 months old.</VerificationRule>
 </VerificationMode>
+
+
+
+## 📖 Disclaimer  
+
+These templates and instructions are provided **“as-is”** for educational and practical purposes.  
+No warranties are expressed or implied regarding accuracy, completeness, or suitability for any purpose.  
+
+The authors (Howard Pincham & Sage, OpenAI Assistant) are **not responsible** for errors, omissions, misinterpretations, or outcomes resulting from use of this material.  
+
+Use at your own discretion and always review generated outputs before relying on them.  
+
+---
+
+© 2025 Howard Pincham — Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
