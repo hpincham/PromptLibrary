@@ -1,5 +1,12 @@
 # GPT-5 XML Prompt Templates — Tiered Manual (with Verification Toggle)
 
+<!--
+  GPT-5 Prompt Manual
+  © 2025 Howard Pincham & Sage (OpenAI Assistant)
+  License: CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)
+  Contact: howard@example.com
+-->
+
 A practical, tiered system for crafting clear, reliable prompts for GPT-5.  
 Now includes a **feature-flagged VerificationMode** to control evidence rigor per prompt.
 
