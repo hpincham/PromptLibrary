@@ -1,0 +1,17 @@
+<GPT5Prompt>
+  <Role> <!-- OPTIONAL: Skip for factual/low-stakes prompts or when tone doesn't matter.
+              Use when you want a specific voice/mindset (e.g., "Travel planner", "DBA coach"). -->
+  </Role>
+
+  <Context>
+    <!-- REQUIRED: Facts/preferences the model must assume as true; paste any snippets it should rely on. -->
+  </Context>
+
+  <Task>
+    <!-- REQUIRED: One clear sentence, action verb + scope (e.g., "Draft...", "Plan...", "Summarize..."). -->
+  </Task>
+
+  <OutputFormat> <!-- OPTIONAL (but recommended): Skip only if you truly don't care about structure.
+                      Otherwise define sections, bullets, or table fields. -->
+  </OutputFormat>
+</GPT5Prompt>
