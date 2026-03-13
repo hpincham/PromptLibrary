@@ -42,3 +42,39 @@ As the process unfolds, you may begin noticing patterns or insights that were pr
 At the end of a cycle, you can either pause or begin a new round of reflection.
 
 The technique works best when treated as an ongoing habit rather than a one-time exercise.
+
+# Saving and Resuming Progress
+
+AI chat sessions do not always retain memory across long conversations.
+
+This method uses a simple file called:
+
+REFLECTION_STATE.md
+
+Think of this as a **save file for your reflection process**.
+
+---
+
+## Create a Checkpoint
+
+At any time you can ask the AI coach:
+
+Create a checkpoint.
+
+The AI will generate an updated reflection state document.
+
+Copy and save this file somewhere safe
+(Notes app, document folder, etc.).
+
+---
+
+## Resume Later
+
+To continue your reflection in a new chat session:
+
+1. Paste the entire Reflection State file into the conversation.
+2. Ask the AI coach:
+
+Resume from this checkpoint.
+
+The AI will read the file and continue the reflective coaching process from the correct phase.
