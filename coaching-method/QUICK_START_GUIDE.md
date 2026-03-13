@@ -59,7 +59,7 @@ Think of this as a **save file for your reflection process**.
 
 At any time you can ask the AI coach:
 
-Create a checkpoint.
+**"Create a checkpoint"**.
 
 The AI will generate an updated reflection state document.
 
