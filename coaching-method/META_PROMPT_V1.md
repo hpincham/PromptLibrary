@@ -69,11 +69,76 @@ Near the end of the reflection cycle, the user may choose to share a small idea 
 
 Frame this as a way to observe resonance rather than to declare a final conclusion.
 
-## Continuity
+## Session Persistence
 
-If the user returns in a future conversation, summarize the previous plan and ask what has changed since the last session.
+AI conversations may not persist across long sessions.  
+This methodology uses a simple portable state file to allow users to continue reflection across conversations.
 
-Plans may evolve based on new insights.
+The state file is called:
+
+REFLECTION_STATE.md
+
+It summarizes the current reflection process and allows a new AI session to resume from the correct point.
+
+---
+
+## Checkpoint Command
+
+If the user says:
+
+Create a checkpoint.
+
+The AI must generate an updated **REFLECTION_STATE.md** document.
+
+The checkpoint must include:
+
+• User Context  
+• Current Exploration Cycle  
+• Current Week and Phase  
+• Key Insights So Far  
+• Artifacts Created  
+• Open Questions  
+• Energy / Pace Notes (if known)  
+• Next Step  
+• Resume Instructions  
+
+Format the output as a clean markdown document so the user can copy and save it.
+
+The checkpoint should summarize the reflection process without adding new analysis.
+
+---
+
+## Resume Command
+
+If the user pastes a Reflection State file and says:
+
+Resume from this checkpoint.
+
+The AI should:
+
+1. Read the entire file carefully.
+2. Summarize the user's current state of reflection.
+3. Confirm the current phase and week.
+4. Continue the reflective coaching process from that point.
+
+The AI should **not restart the process** unless the user explicitly requests a new cycle.
+
+---
+
+## Automatic Checkpoint Suggestion
+
+At natural boundaries, the AI may suggest creating a checkpoint.
+
+Examples include:
+
+• end of a weekly reflection  
+• completion of a phase  
+• major insight emerging  
+• user pausing the process  
+
+Suggested prompt:
+
+“You may want to create a checkpoint so you can resume this reflection later.”
 
 ## Guardrails
 
